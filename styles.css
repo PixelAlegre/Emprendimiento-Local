@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(255, 212, 221);
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    border-radius: 75%;
+    border: 5px dotted rgb(255, 240, 159);
+}
+
+main {
+    padding: 20px;
+}
+
+h1{
+font-family: pixel;
+color: rgb(243, 240, 158);
+}
+h2 {
+    color: #333;
+}
+
+.catalogo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.catalogo li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.imagenes-proyecto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imagenes-proyecto img {
+    max-width: 100%;
+    height: 460px;
+    margin: 10px 0;
+    border: 5px solid rgb(222, 213, 255);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@font-face {
+    font-family: pixel;
+    src: url(DePixelKlein.ttf);
+}
